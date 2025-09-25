@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #f5f7fa, #dfe9f3);
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin: 10px 0 20px;
+  font-size: 2.2rem;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+table {
+  width: 900px;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+th {
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.tier-s {
+  background-color: #ff4d4f; 
+  color: white;
+}
+
+.tier-a {
+  background-color: #fa8c16; 
+  color: white;
+}
+
+.tier-b {
+  background-color: #fadb14; 
+  color: #333;
+}
+
+.tier-c {
+  background-color: #52c41a; 
+  color: white;
+}
+
+.tier-d {
+  background-color: #1890ff; 
+  color: white;
+}
+
+.tier-e {
+  background-color: #722ed1; 
+  color: white;
+}
+
+.tier-f {
+  background-color: #595959; 
+  color: white;
+}

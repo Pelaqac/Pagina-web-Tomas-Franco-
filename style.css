@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f9f9;
+    color: #1c1c1c;
+}
+
+section {
+    background-color: #f0f8ff; 
+    padding-bottom: 20px;
+}
+
+h1 {
+    background-color: #0c0477; 
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px 0;
+    color: #0c0477; 
+}
+
+h3 {
+    text-align: center;
+    color: #0c0477; 
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.logo {
+    width: 180px; 
+    height: auto;
+}
+
+section img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+.img-group {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.img-group img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.separator {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator img {
+    width: 200px;
+    height: auto;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    color: #444;
+    margin: 20px 0;
+}
+
+.nav-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    background-color: #0c0477; 
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #87ceeb; 
+    color: #0c0477; 
+}
